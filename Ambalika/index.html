@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+   .row{
+    background-image:url(michael-marsh-U0dBV_QeiYk-unsplash.jpg);/*lets see later*/
+    background-size: cover;
+}
+    .logo h1 {
+      float: left;
+      color: red;
+      margin-bottom: auto;
+    }
+    .logo img {
+      float: left;
+    }
+    .logo li  {
+      float: right;
+      text-decoration: none;
+      padding: 10px;
+      margin: auto;
+      list-style-type: none;
+    }
+    .logo li a{
+      text-decoration: none;
+    }
+    .logo {
+      background-color: fuchsia;
+    }
+    .detail {
+      background-color: fuchsia;
+    }
+    .detail h3 {
+      float: left;
+      padding-top: 35px;
+      padding-right: 500px;
+      color: blue;
+    }
+    .depart h1 {
+      color: darkred;
+      text-align: center;
+    }
+    .depart a {
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    .head {
+      margin: 100px;
+      text-align: center;
+    }
+    .head a{
+        text-decoration: none;
+        color: black;
+    }
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+  </style>
+  <body>
+   
+    <div class="logo">
+        <p><a href="index.html"><img
+            src="https://aimt.edu.in/wp-content/uploads/2022/02/ambalika-home-logo.png"
+            alt=""
+            width="5%"
+          /></a></p>
+     
+      <h1>Ambalika Institute of Management and Technology</h1>
+      <nav>
+        <ul>
+          <li ><a href="home.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li> <a href="sign.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+   
+    <div class="detail">
+      <marquee width="60%" direction="left" height="100px">
+        <h3>Welcome to Ambalika Institute of Management and Technology</h3>
+      </marquee>
+    </div>
+    <div class="depart">
+      <h1>Department</h1>
+      <a href="Ai.html">Department of Computer Science and Engineering</a>
+      <a href="Ce.html">Department of Civil Engineering</a>
+      <a href="Ece.html"
+        >Department of Electronics and Communication Engineering</a
+      >
+      <a href="Me.html">Department of Mechanical Engineering</a>
+      
+    </div>
+    <div class="head">
+      <h2><a href="index.html">AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY</a></h2>
+      <p>
+        The premier engineering college in Lucknow, Uttar Pradesh, Ambalika
+        Group of Institutions, was founded to deliver high-quality professional
+        education in the fields of engineering and management. Ambalika
+        Construction Limited, Ambalika Chit Fund Limited, and Ambalika Farms &
+        Resorts Ltd. are currently managed by the Trustee. The groups’ primary
+        fields of activity are infrastructure development, building
+        construction, machinery rental, transportation and logistics, earthwork,
+        mining, and crushing. Ambalika Construction Limited, the group’s main
+        firm, is in charge of the operation. Uttar Pradesh has abundant natural
+        resources. However, it lags behind in technical and management education
+        in particular. This has a negative impact on industrial growth and the
+        economy as a whole. As a result, there is an urgent need for the state
+        to expand management and engineering education.
+      </p>
+    </div>
+    <div class="row">
+        <div class="column">
+          <div class="card"><img src="about.jpg" alt="About" width="70%"></div>
+        </div>
+        <div class="column">
+          <div class="card"><img src="lab.jpg" alt="About" width="70%"></div>
+        </div>
+        <div class="column">
+          <div class="card"><img src="library-new.jpg" alt="About" width="70%"></div>
+        </div>
+        <div class="column">
+          <div class="card"><img src="kuka.jpg" alt="About" width="70%"></div>
+        </div>
+  
+      </div>
+  </body>
+</html>
